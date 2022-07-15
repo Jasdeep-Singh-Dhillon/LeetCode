@@ -1,6 +1,4 @@
 make all --print-data-base --no-builtin-variables --no-builtin-rules --question
-make: *** No rule to make target 'all'.  Stop.
-
 # GNU Make 4.3
 # Built for x86_64-redhat-linux-gnu
 # Copyright (C) 1988-2020 Free Software Foundation, Inc.
@@ -8,7 +6,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Fri Jul 15 01:36:53 2022
+# Make data base, printed on Fri Jul 15 02:03:05 2022
 
 # Variables
 
@@ -53,7 +51,7 @@ VSCODE_CODE_CACHE_PATH = /home/jasdeep/.config/Code/CachedData/b06ae3b2d2dbfe28b
 # environment
 LANG = C
 # environment
-XAUTHORITY = /run/user/1000/.mutter-Xwaylandauth.L57SP1
+XAUTHORITY = /run/user/1000/.mutter-Xwaylandauth.TTLHP1
 # default
 .LOADED := 
 # default
@@ -63,7 +61,7 @@ MAKEFLAGS = pqrR
 # makefile
 CURDIR := /media/Storage/Projects/Leetcode
 # environment
-APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
 # environment
 LESSOPEN = ||/usr/bin/lesspipe.sh %s
 # automatic
@@ -91,13 +89,13 @@ MAKEFILE_LIST :=
 # environment
 ZSH = /home/jasdeep/.oh-my-zsh
 # environment
-VSCODE_PID = 4869
+VSCODE_PID = 14939
 # environment
 XDG_SESSION_TYPE = wayland
 # automatic
 ?D = $(patsubst %/,%,$(dir $?))
 # environment
-SESSION_MANAGER = local/unix:@/tmp/.ICE-unix/1989,unix/unix:/tmp/.ICE-unix/1989
+SESSION_MANAGER = local/unix:@/tmp/.ICE-unix/11819,unix/unix:/tmp/.ICE-unix/11819
 # automatic
 *F = $(notdir $*)
 # environment
@@ -133,7 +131,7 @@ MAKEFILES :=
 # automatic
 ^F = $(notdir $^)
 # environment
-INVOCATION_ID = c9f071214a694ac6ab7264a8770a3264
+INVOCATION_ID = eccdf261875c47be9e0ab279e6016b4f
 # environment
 USERNAME = jasdeep
 # environment
@@ -159,7 +157,7 @@ LOGNAME = jasdeep
 # makefile
 .DEFAULT_GOAL := 
 # environment
-SYSTEMD_EXEC_PID = 2436
+SYSTEMD_EXEC_PID = 12227
 # environment
 HISTCONTROL = ignoredups
 # environment
@@ -171,13 +169,13 @@ USER = jasdeep
 # default
 MAKE_VERSION := 4.3
 # environment
-MANAGERPID = 1842
+MANAGERPID = 11674
 # environment
 which_declare = typeset -f
 # environment
 DEBUGINFOD_URLS = https://debuginfod.fedoraproject.org/ 
 # environment
-GIO_LAUNCHED_DESKTOP_FILE_PID = 4657
+GIO_LAUNCHED_DESKTOP_FILE_PID = 14783
 # environment
 PAGER = less
 # environment
@@ -187,13 +185,13 @@ XDG_RUNTIME_DIR = /run/user/1000
 # environment
 COLORTERM = truecolor
 # environment
-JOURNAL_STREAM = 8:27387
+JOURNAL_STREAM = 8:88054
 # environment
 XDG_SESSION_CLASS = user
 # environment
 VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
 # environment
-TILIX_ID = 75201129-0c9c-4b15-9124-30655c7ebe9a
+TILIX_ID = 0a550afd-02ad-4764-8846-8cfe6dabf151
 # environment
 HOME = /home/jasdeep
 # environment
@@ -233,9 +231,9 @@ GDMSESSION = gnome
 
 # Directories
 
-# . (device 2049, inode 9328): 8 files, no impossibilities.
+# . (device 2049, inode 9328): 9 files, no impossibilities.
 
-# 8 files, no impossibilities in 1 directories.
+# 9 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -285,12 +283,15 @@ GNUmakefile:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 16 / storage = 134 B / avg = 8 B
-# current buf: size = 8162 B / used = 134 B / count = 16 / avg = 8 B
+# strcache buffers: 1 (0) / strings = 17 / storage = 136 B / avg = 8 B
+# current buf: size = 8162 B / used = 136 B / count = 17 / avg = 8 B
 
-# strcache performance: lookups = 19 / hit rate = 15%
+# strcache performance: lookups = 20 / hit rate = 15%
 # hash-table stats:
-# Load=16/8192=0%, Rehash=0, Collisions=0/19=0%
-# Finished Make data base on Fri Jul 15 01:36:53 2022
+ 
+make: *** No rule to make target 'all'.  Stop.
+
+# Load=17/8192=0%, Rehash=0, Collisions=0/20=0%
+# Finished Make data base on Fri Jul 15 02:03:05 2022
 
  
